@@ -43,7 +43,10 @@
   </build>
   
    <scm>
-        <developerConnection>scm:https://github.com/onkarphondba/test.git</developerConnection>
+   		<url>https://github.com/onkarphondba/test</url>
+		<connection>scm:git:git://https://github.com/onkarphondba/test.git</connection>
+		<developerConnection>scm:git:https://github.com/onkarphondba/test.git</developerConnection>
+        
     </scm>
 
 <distributionManagement>
