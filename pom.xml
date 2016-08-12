@@ -41,6 +41,10 @@
 	
     </plugins>
   </build>
+  
+   <scm>
+        <developerConnection>scm:C:\Users\ophondba\workspace\eclipse_t\test\</developerConnection>
+    </scm>
 
 <distributionManagement>
 	<repository>
