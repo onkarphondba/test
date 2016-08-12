@@ -43,7 +43,7 @@
   </build>
   
    <scm>
-        <developerConnection>scm:C:\Users\ophondba\workspace\eclipse_t\test\</developerConnection>
+        <developerConnection>scm:https://github.com/onkarphondba/test.git</developerConnection>
     </scm>
 
 <distributionManagement>
