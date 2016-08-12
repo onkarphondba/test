@@ -4,8 +4,7 @@
   <artifactId>test2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
-  <name>${project.artifactId}</name>
-  <build>
+ <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
       <plugin>
