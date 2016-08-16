@@ -2,10 +2,9 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>test</groupId>
   <artifactId>test2</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <packaging>war</packaging>
-  <name>${project.artifactId}</name>
-  <build>
+ <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
       <plugin>
@@ -35,19 +34,18 @@
 			<path>/test-0.0.1-SNAPSHOT</path>
 		</configuration>
 	</plugin>
+	 <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>2.5.3</version>
+	 </plugin>
 	
-	
-      
-	
-    </plugins>
+   </plugins>
   </build>
   
    <scm>
-   		<url>https://github.com/onkarphondba/test</url>
-		<connection>scm:git:git://https://github.com/onkarphondba/test.git</connection>
-		<developerConnection>scm:git:https://github.com/onkarphondba/test.git</developerConnection>
-        
-    </scm>
+		<connection>scm:git://https://github.com/onkarphondba/test.git</connection>
+  </scm>
 
 <distributionManagement>
 	<repository>
