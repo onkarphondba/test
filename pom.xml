@@ -44,7 +44,7 @@
   </build>
   
    <scm>
-		<connection>scm:git://https://github.com/onkarphondba/test.git</connection>
+		<connection>scm:git:https://github.com/onkarphondba/test.git</connection>
    
    
     <tag>test-0.0.2</tag>
