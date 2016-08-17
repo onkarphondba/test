@@ -31,7 +31,7 @@
 		<configuration>
 			<url>http://localhost:8082/manager/text</url>
 			<server>TomcatServer</server>
-			<path>/test-0.0.2-SNAPSHOT</path>
+			<path>/test-0.0.1-SNAPSHOT</path>
 		</configuration>
 	</plugin>
 	 <plugin>
@@ -44,9 +44,10 @@
   </build>
   
    <scm>
-		<connection>scm:git://https://github.com/onkarphondba/test.git</connection>
+		<connection>scm:git:git@github.com:onkarphondba/test.git</connection>
    
    
+  
   </scm>
 
 <distributionManagement>
