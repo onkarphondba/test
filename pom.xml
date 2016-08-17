@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>test</groupId>
   <artifactId>test</artifactId>
-  <version>0.0.2</version>
+  <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
  <build>
     <sourceDirectory>src</sourceDirectory>
@@ -31,7 +31,7 @@
 		<configuration>
 			<url>http://localhost:8082/manager/text</url>
 			<server>TomcatServer</server>
-			<path>/test-0.0.2-SNAPSHOT</path>
+			<path>/test-0.0.1-SNAPSHOT</path>
 		</configuration>
 	</plugin>
 	 <plugin>
@@ -47,7 +47,7 @@
 		<connection>scm:git:https://github.com/onkarphondba/test.git</connection>
    
    
-    <tag>test-0.0.2</tag>
+  
   </scm>
 
 <distributionManagement>
