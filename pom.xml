@@ -46,7 +46,7 @@
    <scm>
 		<connection>scm:git:git@github.com:onkarphondba/test.git</connection>
 		<url>https://github.com/onkarphondba/test</url>
-		<tag>test-0.0.1</tag>
+		
   </scm>
 
 <distributionManagement>
