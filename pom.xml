@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>test</groupId>
   <artifactId>test</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>0.0.2</version>
   <packaging>war</packaging>
  <build>
     <sourceDirectory>src</sourceDirectory>
@@ -48,7 +48,7 @@
 		<url>https://github.com/onkarphondba/test</url>
 		
 
-    <tag>HEAD</tag>
+    <tag>prod-0.0.2</tag>
   </scm>
 
 <distributionManagement>
